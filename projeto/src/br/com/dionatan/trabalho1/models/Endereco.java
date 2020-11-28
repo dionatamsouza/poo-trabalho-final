@@ -78,4 +78,10 @@ public class Endereco {
         return getRua().length();
     }
     
+    // toString
+	@Override
+	public String toString() {
+		return this.rua + " - " + this.bairro + " - " + this.cidade + " - " + this.estado + " - " + this.pais ;
+    }
+    
 }
