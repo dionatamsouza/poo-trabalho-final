@@ -51,7 +51,6 @@ public class Endereco {
         return this.pais;
     }
     
-    
     // Equals
     @Override
     public boolean equals(Object obj) {
