@@ -7,8 +7,6 @@ public class Contato {
     private String telefone;
     private String email;
     private Endereco endereco;
-
-    
     
     // Sets
     public void setNome(String nome) {
@@ -43,14 +41,13 @@ public class Contato {
         return this.endereco;
     }
     
-    
-    
     // Equals
     @Override
     public boolean equals(Object obj) {
         
-        if ( this == obj )
+        if ( this == obj ){
             return true ;
+        }
         
         if ( obj == null ||  this.getClass() != obj.getClass() ){
             return false;
@@ -58,20 +55,15 @@ public class Contato {
         
         Contato contato = (Contato) obj;
         
-        return this.nome.equalsIgnoreCase(contato.getNome()) &&
-               this.telefone.equalsIgnoreCase(contato.getTelefone()) &&
-               this.email.equalsIgnoreCase(contato.getEmail()) ;
-        
+        return this.nome.equalsIgnoreCase    ( contato.getNome()     ) &&
+               this.telefone.equalsIgnoreCase( contato.getTelefone() ) &&
+               this.email.equalsIgnoreCase   ( contato.getEmail()    ) ;
     }
-    
-    
     
     // Hashcode
     @Override
     public int hashCode() {
         return getEmail().length();
-    }    
-    
-    
+    }
     
 }
