@@ -9,6 +9,12 @@ public class App {
     
     public static void main( String[] args ) {
         
+        
+        
+        List<Contato> contatos = new ArrayList<Contato>();
+        
+        
+        
         System.out.println("teste ok");
         
     }
