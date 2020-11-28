@@ -66,4 +66,10 @@ public class Contato {
         return getEmail().length();
     }
     
+    // toString
+    @Override
+    public String toString() {
+        return this.nome + " - " + this.telefone + " - " + this.email ;
+    }    
+    
 }
