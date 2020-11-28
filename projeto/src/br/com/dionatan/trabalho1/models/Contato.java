@@ -11,25 +11,22 @@ public class Contato {
     
     
     // Sets
-    public void setNome(String p) {
-        this.nome = p;
+    public void setNome(String nome) {
+        this.nome = nome;
     }    
 
-    public void setTelefone(String p) {
-        this.telefone = p;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }    
 
-    public void setEmail(String p) {
-        this.email = p;
+    public void setEmail(String email) {
+        this.email = email;
     }    
 
-    public void setEndereco(Endereco p) {
-        this.endereco = p;
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
     
-    
-    
-    // Gets
     public String getNome() {
         return this.nome;
     }
