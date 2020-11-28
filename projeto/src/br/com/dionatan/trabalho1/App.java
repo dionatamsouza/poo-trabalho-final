@@ -13,9 +13,10 @@ public class App {
         
         List<Contato> contatos = new ArrayList<Contato>();
         
-        
-        
-        System.out.println("teste ok");
+        // Listando todos
+        for (Contato contato : contatos) {
+            System.out.println( "Nome: " + contato.getNome() );
+        }
         
     }
     
