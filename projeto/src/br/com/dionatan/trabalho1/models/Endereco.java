@@ -10,24 +10,24 @@ public class Endereco {
     private String pais;
     
     // Sets
-    public void setRua(String p) {
-        this.rua = p;
+    public void setRua(String rua) {
+        this.rua = rua;
     }    
     
-    public void setBairro(String p) {
-        this.bairro = p;
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
     }    
     
-    public void setCidade(String p) {
-        this.cidade = p;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }    
     
-    public void setEstado(String p) {
-        this.estado = p;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }    
     
-    public void setPais(String p) {
-        this.pais = p;
+    public void setPais(String pais) {
+        this.pais = pais;
     }    
     
     // Gets
@@ -55,8 +55,9 @@ public class Endereco {
     @Override
     public boolean equals(Object obj) {
         
-        if ( this == obj )
+        if ( this == obj ){
             return true ;
+        }
         
         if ( obj == null ||  this.getClass() != obj.getClass() ){
             return false;
@@ -69,8 +70,7 @@ public class Endereco {
                this.cidade.equalsIgnoreCase(endereco.getCidade()) && 
                this.estado.equalsIgnoreCase(endereco.getEstado()) && 
                this.pais.equalsIgnoreCase(endereco.getPais()) ;
-        
-    }    
+    }
     
     // Hashcode
     @Override
