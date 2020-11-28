@@ -79,9 +79,9 @@ public class Endereco {
     }
     
     // toString
-	@Override
-	public String toString() {
-		return this.rua + " - " + this.bairro + " - " + this.cidade + " - " + this.estado + " - " + this.pais ;
+    @Override
+    public String toString() {
+        return this.rua + " - " + this.bairro + " - " + this.cidade + " - " + this.estado + " - " + this.pais ;
     }
     
 }
