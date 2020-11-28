@@ -42,13 +42,12 @@ public class App {
 
 
 /*
-    Scanner sc = new Scanner(System.in);
-
-    float numF = sc.nextFloat();
-    int num1 = sc.nextInt();
-    byte byte1 = sc.nextByte();
-    long lg1 = sc.nextLong();
-    boolean b1 = sc.nextBoolean();
-    double num2 = sc.nextDouble();
-    String nome = sc.nextLine();
+Scanner s = new Scanner(System.in);
+float x = s.nextFloat();
+int x = s.nextInt();
+byte x = s.nextByte();
+long x = s.nextLong();
+boolean x = s.nextBoolean();
+double x = s.nextDouble();
+String x = s.nextLine();
 */
