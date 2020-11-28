@@ -25,6 +25,7 @@ public class Contato {
         this.endereco = endereco;
     }
     
+    // Gets
     public String getNome() {
         return this.nome;
     }
