@@ -42,6 +42,14 @@ public class Contato {
         return this.endereco;
     }
     
+    // Construtor
+    public Contato(String nome, String telefone, String email, Endereco endereco){
+        this.setNome(nome);
+        this.setTelefone(telefone);
+        this.setEmail(email);
+        this.setEndereco(endereco);
+    }
+    
     // Equals
     @Override
     public boolean equals(Object obj) {

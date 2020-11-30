@@ -51,6 +51,15 @@ public class Endereco {
         return this.pais;
     }
     
+    // Construtor
+    public Endereco(String rua, String bairro, String cidade, String estado, String pais){
+        this.setRua(rua);
+        this.setBairro(bairro);
+        this.setCidade(cidade);
+        this.setEstado(estado);
+        this.setPais(pais);
+    }
+    
     // Equals
     @Override
     public boolean equals(Object obj) {
